@@ -33,7 +33,7 @@
         };
         combo_backspace {
             timeout-ms = <35>;
-            key-positions = <10 11>;
+            key-positions = <12 13>;
             bindings = <&kp BACKSPACE>;
         };
     };
