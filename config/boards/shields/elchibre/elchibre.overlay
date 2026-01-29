@@ -28,3 +28,8 @@
         , <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //right ROW3
         ;
 };
+
+
+&led0 {
+    status = "disabled";
+};
