@@ -4,13 +4,13 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &lt {
-    tapping-term-ms = <220>;
-    flavor = "balanced";
+    tapping-term-ms = <160>;
+    flavor = "hold-preferred";
 };
 
 &mt {
-    tapping-term-ms = <220>;
-    flavor = "balanced";
+    tapping-term-ms = <160>;
+    flavor = "hold-preferred";
 };
 
 / {
