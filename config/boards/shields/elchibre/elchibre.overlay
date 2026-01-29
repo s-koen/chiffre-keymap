@@ -30,6 +30,8 @@
 };
 
 
-&led0 {
-    status = "disabled";
+/ {
+    aliases {
+        status-led = &none;
+    };
 };
