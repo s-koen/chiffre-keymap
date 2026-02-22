@@ -48,7 +48,7 @@
                 &kp TAB      &kp W  &kp E    &kp R    &kp T           &kp Y           &kp U        &kp I     &kp O      &kp P
                 &mt LSHIFT A &kp S  &kp D    &lt 3 F  &kp G           &kp H           &kp J        &kp K     &kp L      &mt RSHIFT SEMI
                 &mt LCTRL Z  &kp X  &kp C    &kp V    &kp B           &kp N           &kp M        &kp COMMA &kp PERIOD &mt RCTRL SLASH
-                                    &kp RWIN &kp LALT &lt 2 BACKSPACE &kp             &lt 1 SPACE  &kp RWIN
+                                    &kp RWIN &kp LALT &lt 2 BACKSPACE &none             &lt 1 SPACE  &kp RWIN
             >;
         };
 
@@ -75,7 +75,7 @@
                 &trans    &kp C_VOL_DN &kp C_VOL_UP &trans &trans          &kp INS   &kp HOME     &kp UP   &kp END   &trans
                 &kp LSHFT &kp C_PREV   &kp C_NEXT   &trans &trans          &kp PG_UP &kp LEFT     &kp DOWN &kp RIGHT &kp RSHFT
                 &kp LCTRL &trans       &trans       &trans &trans          &kp PG_DN &kp LC(LEFT) &trans   &kp LC(RIGHT)    &kp RCTRL
-                                       &trans              &kp DEL         &kp       &kp ENTER    &trans
+                                       &trans              &kp DEL         &none       &kp ENTER    &trans
             >;
         };
     };
